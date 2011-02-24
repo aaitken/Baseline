@@ -42,7 +42,7 @@ BL.Rule.prototype={
             ctx.stroke();
         };
         btn.innerHTML='Toggle Line Rules';
-        btn.setAttribute('style','position:absolute;z-index:8000;font-size:12px;top:10px;left:10px')
+        btn.setAttribute('style','position:absolute;z-index:8000;font-size:12px;top:10px;left:10px');
         btn.addEventListener('click',function(){
             (function(){
                 this.canvas.style.visibility==='visible'?
@@ -51,7 +51,6 @@ BL.Rule.prototype={
             }.apply(that));
         });
         document.body.appendChild(btn);
-
     }
 };
 new BL.Rule();
