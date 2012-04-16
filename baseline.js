@@ -23,7 +23,7 @@ BL.Rule.prototype={
             this.canvas.setAttribute('width',this.docWidth);
             this.canvas.setAttribute('height',this.docHeight);
             this.canvas.setAttribute('id','baselineCanvas');
-            this.canvas.setAttribute('style','position:absolute;top:0;z-index:7000;visibility:visible');
+            this.canvas.setAttribute('style','position:absolute;top:0;z-index:7000;visibility:visible;pointer-events:none;');
             document.body.appendChild(this.canvas);
             this.draw();
         }
