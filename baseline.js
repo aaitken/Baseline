@@ -6,6 +6,7 @@ BL.Rule=function(){
     this.lineHeight=null;//set with init
     //Declaration initializes and draws
     this.init();
+    // what up, yo!
 };
 BL.Rule.prototype={
     init:function(){
